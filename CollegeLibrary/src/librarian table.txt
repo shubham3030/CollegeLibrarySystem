@@ -1,0 +1,9 @@
+create table addbooks(
+Id number (10) NOT NULL PRIMARY KEY  ,
+Bookno varchar (50) NOT NULL,
+Bookname varchar (100) ,
+Author varchar (25) ,
+Publisher varchar (100) ,
+Quantity number (10) ,
+Issued number (10) NOT NULL
+);

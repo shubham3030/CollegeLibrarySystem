@@ -1,0 +1,8 @@
+create table issuebooks(
+Id number(10) NOT NULL,
+Bookno varchar(100) ,
+Student_id varchar(100) NOT NULL,
+Student_name varchar(100) NOT NULL,
+Branch varchar(100),
+studentContact varchar(100) NOT NULL
+)
